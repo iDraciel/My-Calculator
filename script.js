@@ -1,7 +1,9 @@
+
 function calcNumbers(result){
   form.displayResult.value=form.displayResult.value+result;
 
 }
+
 function backspace(){
   var input_var=document.getElementById('input')
   var x= input_var.value;
@@ -16,3 +18,25 @@ function percentage(){
   x = x/100;
   input_var.value = x;
 }
+
+
+
+/*
+//function for displaying values
+function calcNumbers(val)
+{
+document.getElementById("input").value+=val
+ }
+//function for evaluation
+function solve()
+{
+let x = document.getElementById("input").value
+let y = eval(x)
+document.getElementById("input").value = y
+}
+//function for clearing the display
+function clr()
+{
+document.getElementById("input").value = ""
+}
+*/

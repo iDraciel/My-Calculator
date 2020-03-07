@@ -1,10 +1,12 @@
-
+/*
 body, html {
  background: #ECEDEF;
  margin: 0;
  padding: 0;
 }
 
+*/
+/*
 .container {
  position: fixed;
  top: 50%;
@@ -63,4 +65,53 @@ input[type=text] {
  line-height: 60px;
  margin: 0 25px;
 
+}
+*/
+
+body          {
+  background:#ECEDEF;
+  padding-bottom:0px;
+  padding-top:40px;
+}
+.container  {
+  height: 600px;
+  max-width: 480px;
+  overflow: hidden;
+  background:white;
+  margin: auto;
+  border: 2px #F0FEFD;
+  border-radius: 10px;
+}
+
+input[type=text]   {
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  padding: 20px 20px;
+  width: 100%;
+  border-bottom: 2px solid #111;
+  color: #333;
+  text-align: right;
+  font-size: 40px;
+  border-radius: 0;
+}
+input[type=button]  {
+  float: left;
+  padding: 35px 0;
+  margin: 0;
+
+  background:white;
+  border: none;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  color: black;
+  cursor: pointer;
+}
+.buttons{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
 }
