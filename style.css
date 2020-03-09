@@ -67,7 +67,7 @@ input[type=text] {
 
 }
 */
-
+/*
 body          {
   background:#ECEDEF;
   padding-bottom:0px;
@@ -114,4 +114,66 @@ input[type=button]  {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-gap: 0px;
+
+}
+*/
+
+body          {
+  background:#ECEDEF;
+/*  padding-bottom:0px;
+  padding-top:40px;
+  */
+}
+.container  {
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  background:white;
+  margin: 0;
+  border: 2px #F0FEFD;
+  border-radius: 10px;
+}
+input[type=text] {
+  background: none;
+  border: none;
+  box-shadow: none;
+  outline: none;
+  padding: 20px 20px;
+  width: 100%;
+  border-bottom: 2px solid #111;
+  color: #333;
+  text-align: right;
+  font-size: 40px;
+  border-radius: 0;
+}
+input[type=button]  {
+  float: left;
+  padding: 36px 0;
+  margin: 0;
+  background:orange;
+    border: none;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  color: black;
+  cursor: pointer;
+    border-bottom: 2px solid #111;
+}
+@media only screen and (max-height: 667px) {
+  input[type=button]{
+    padding: 29px;
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  input[type=button]{
+    padding: 22px;
+  }
+}
+.buttons{
+  padding-top: 0px;
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+grid-template-rows: 25% 25% 25% 25% 25%;
 }
