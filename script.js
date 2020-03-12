@@ -27,7 +27,7 @@ function calcNumbers(val)
 {
 document.getElementById("input").value+=val
  }
-//function for evaluation
+ */
 function solve()
 {
 let x = document.getElementById("input").value
@@ -35,6 +35,7 @@ let y = eval(x)
 document.getElementById("input").value = y
 }
 //function for clearing the display
+/*
 function clr()
 {
 document.getElementById("input").value = ""
